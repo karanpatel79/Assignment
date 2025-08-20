@@ -1,3 +1,7 @@
+/*Write a C program that calculates the factorial of a number using a function.
+Include function declaration, definition, and call.
+*/
+
 #include<stdio.h>
 #include<conio.h>
 

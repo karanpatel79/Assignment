@@ -1,7 +1,7 @@
 /*Write a C program that takes an integer from the user and checks the following using
 different operators:
 Whether the number is even or odd.
-Whether the number is positive, negative, orzero.
+Whether the number is positive, negative, or zero.
 Whether the number is a multiple of both 3 and 5.
 */
 

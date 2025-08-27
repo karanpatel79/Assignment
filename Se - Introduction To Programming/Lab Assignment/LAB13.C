@@ -43,9 +43,6 @@ void main()
 			printf("\nMultiplecation: %d",a*b);
 			break;
 
-		/*Challenge: Extend the program to handle invalid
-		operator inputs.*/
-
 		case 4:
 			if(b!=0)
 			{

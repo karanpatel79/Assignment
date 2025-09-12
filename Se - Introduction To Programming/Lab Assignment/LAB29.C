@@ -28,9 +28,13 @@ int isArmstrong(int num)
     }
 
     if(sum == original)
+    {
         return 1;
+    }
     else
+    {
         return 0;
+    }
 }
 
 void main()
@@ -51,7 +55,9 @@ void main()
     for(i = 1; i <= 1000; i++)
     {
         if(isArmstrong(i))
+        {
             printf("%d ", i);
+        }
     }
 
     getch();

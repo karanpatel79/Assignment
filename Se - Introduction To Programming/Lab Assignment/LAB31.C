@@ -43,9 +43,13 @@ void main()
         attempts++;
 
         if(guess > number)
+        {
             printf("Too high! Try again.\n");
+        }
         else if(guess < number)
+        {
             printf("Too low! Try again.\n");
+        }
         else
         {
             printf("Congratulations! You guessed it in %d attempts.\n", attempts);
@@ -53,7 +57,9 @@ void main()
         }
 
         if(attempts == maxAttempts)
+        {
             printf("Sorry! You've used all %d attempts. The number was %d.\n", maxAttempts, number);
+        }
 
     } while(attempts < maxAttempts);
 

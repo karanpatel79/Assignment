@@ -9,7 +9,9 @@
 int factorial(int n)
 {
     if(n==0 || n==1)
+    {
         return 1;
+    }
     return n * factorial(n-1);
 }
 
@@ -24,7 +26,9 @@ void pascalLoop(int rows)
     for(i=0; i<rows; i++)
     {
         for(j=0; j<=i; j++)
+        {
             printf("%d ", combination(i,j));
+        }
         printf("\n");
     }
 }
@@ -32,7 +36,9 @@ void pascalLoop(int rows)
 void pascalRecursive(int i, int j, int rows)
 {
     if(i == rows)
+    {
         return;
+    }
     if(j > i)
     {
         printf("\n");

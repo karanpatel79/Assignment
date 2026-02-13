@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sum of Array Elements</title>
+    <script>
+        function findSum() {
+            let numbers = [10, 20, 30, 40, 50];
+            let sum = 0;
+
+            for (let i = 0; i < numbers.length; i++) {
+                sum += numbers[i];
+            }
+
+            document.getElementById("result").innerHTML = 
+                "Sum of array elements = " + sum;
+        }
+    </script>
+</head>
+<body>
+
+    <h2>Sum of Array Elements</h2>
+    <button onclick="findSum()">Find Sum</button>
+    <p id="result"></p>
+
+</body>
+</html>

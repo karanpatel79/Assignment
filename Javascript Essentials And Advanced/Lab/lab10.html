@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculate Sum</title>
+    <script>
+        function calculateSum(num1, num2) {
+            return num1 + num2;
+        }
+
+        function showResult() {
+            var n1 = parseFloat(document.getElementById("num1").value);
+            var n2 = parseFloat(document.getElementById("num2").value);
+            
+            var result = calculateSum(n1, n2);
+            
+            document.getElementById("output").innerHTML = "Sum = " + result;
+        }
+    </script>
+</head>
+<body>
+
+    <h2>Sum Calculator</h2>
+
+    <label>Enter First Number:</label>
+    <input type="number" id="num1"><br><br>
+
+    <label>Enter Second Number:</label>
+    <input type="number" id="num2"><br><br>
+
+    <button onclick="showResult()">Calculate Sum</button>
+
+    <p id="output"></p>
+
+</body>
+</html>

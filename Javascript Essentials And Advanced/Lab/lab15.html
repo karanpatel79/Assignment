@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Paragraph Text</title>
+</head>
+<body>
+
+    <p id="myPara">Hello, World!</p>
+
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+        function changeText() {
+            // Change text
+            document.getElementById("myPara").innerHTML = "JavaScript is fun!";
+            
+            // Change color
+            document.getElementById("myPara").style.color = "blue";
+        }
+    </script>
+
+</body>
+</html>
